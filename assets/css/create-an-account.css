@@ -1,0 +1,35 @@
+.create-an-account{
+  margin-top: -50px;
+}
+
+.create-heading-title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 44px;
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.create-heading-title::before{
+  content: "";
+  display: block;
+  width: 70%;
+  height: 3px;
+  margin: 60px auto;
+  background-color: #e4e4e4;
+}
+
+.create-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-text-container{
+  width: 600px;
+  margin-left: 170px;
+}
+
+
+
