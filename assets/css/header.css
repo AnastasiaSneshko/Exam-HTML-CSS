@@ -31,3 +31,9 @@
   border-radius: 10px;
   background-color: var(--secondary-color);
 }
+
+@media screen and (max-width: 576px) {
+  .header{
+    padding: 20px;
+  }
+}

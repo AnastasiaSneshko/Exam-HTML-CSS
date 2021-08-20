@@ -21,3 +21,13 @@
 .radius {
   border-radius: 10px;
 }
+
+@media screen and (max-width: 576px) {
+  .download-heading{
+    font-size: 35px;
+  }
+  .download-title{
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

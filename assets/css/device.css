@@ -7,3 +7,9 @@
   position: relative;
   bottom: 150px;
 }
+
+@media screen and (max-width: 576px) {
+  .device-img{
+    bottom: 100px;
+  }
+}

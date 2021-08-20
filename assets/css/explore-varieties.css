@@ -37,7 +37,13 @@
 
   .explore-text-container{
     margin-top: 50px;
-    margin-left: 0;
+    margin-right: 0;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .explore-text-container{
+    width: 500px;
   }
 }
