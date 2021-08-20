@@ -17,3 +17,9 @@
 .info{
   font-size: 12px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer-logo{
+    display: none;
+  }
+}

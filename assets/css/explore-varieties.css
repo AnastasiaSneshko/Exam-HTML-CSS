@@ -25,3 +25,19 @@
     margin-right: 50px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .create-an-account{
+    margin-top: -100px;
+  }
+
+  .explore-flex{
+    flex-direction: column;
+  }
+
+  .explore-text-container{
+    margin-top: 50px;
+    margin-left: 0;
+    text-align: center;
+  }
+}

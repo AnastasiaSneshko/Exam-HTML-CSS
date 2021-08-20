@@ -33,3 +33,9 @@
     width: 700px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .greeting-heading {
+    width: 650px;
+  }
+}
