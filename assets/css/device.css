@@ -1,0 +1,9 @@
+.device-flex{
+  display: flex;
+  justify-content: center;
+}
+
+.device-img{
+  position: relative;
+  bottom: 150px;
+}
