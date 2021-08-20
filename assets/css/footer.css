@@ -1,0 +1,19 @@
+.footer-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.social-icon{
+  display: flex;
+}
+
+.download-icon{
+  margin: 0 10px;
+}
+
+.info{
+  font-size: 12px;
+}
