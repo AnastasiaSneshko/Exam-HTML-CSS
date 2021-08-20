@@ -1,3 +1,7 @@
+.explore-varieties {
+  margin: 70px 0;
+}
+
 .explore-flex{
   display: flex;
   flex-direction: row-reverse;
@@ -9,3 +13,4 @@
   width: 600px;
   margin-right: 170px;
 }
+

@@ -1,0 +1,23 @@
+.download {
+  padding: 70px 0 100px;
+  background: url(/assets/images/download-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--primary-color);
+}
+
+.download-flex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.download-heading{
+  font-size: 40px;
+  margin: 60px;
+}
+
+.radius {
+  border-radius: 10px;
+}
