@@ -9,6 +9,11 @@
   --secondary-color: #737373;
 }
 
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 a{
   text-decoration: none;
 }

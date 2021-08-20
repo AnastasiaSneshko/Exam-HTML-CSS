@@ -1,0 +1,33 @@
+.header{
+  padding: 30px;
+}
+
+.header-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger-wrapper {
+  --burger-size: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  width: var(--burger-size);
+  height: var(--burger-size);
+
+  padding: 10px;
+  background: transparent;
+  border: none;
+}
+
+.burger-line {
+  height: 3px;
+  width: 100%;
+  opacity: 60%;
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+}
