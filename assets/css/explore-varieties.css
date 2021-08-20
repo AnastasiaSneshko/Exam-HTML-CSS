@@ -1,0 +1,11 @@
+.explore-flex{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.explore-text-container{
+  width: 600px;
+  margin-right: 170px;
+}
