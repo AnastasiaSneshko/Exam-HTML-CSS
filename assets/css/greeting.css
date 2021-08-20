@@ -1,0 +1,29 @@
+.greeting {
+  padding: 70px 0 170px;
+  background: url(/assets/images/greeting-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--primary-color);
+}
+
+.greeting-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.greeting-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 58px;
+  width: 939px;
+  line-height: 80px;
+  margin: 50px auto;
+}
+
+.greeting-btn-flex {
+  display: flex;
+  justify-content: center;
+}
