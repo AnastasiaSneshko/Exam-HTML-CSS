@@ -31,5 +31,14 @@
   margin-left: 170px;
 }
 
+@media screen and (max-width: 1200px) {
+  .create-text-container{
+    margin-left: 100px;
+  }
+}
 
-
+@media screen and (max-width: 992px) {
+  .create-text-container{
+    margin-left: 50px;
+  }
+}

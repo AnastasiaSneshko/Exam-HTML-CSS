@@ -14,3 +14,14 @@
   margin-right: 170px;
 }
 
+@media screen and (max-width: 1200px) {
+  .explore-text-container{
+    margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .explore-text-container{
+    margin-right: 50px;
+  }
+}
