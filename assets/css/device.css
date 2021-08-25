@@ -6,10 +6,18 @@
 .device-img{
   position: relative;
   bottom: 150px;
+  width: inherit;
 }
 
 @media screen and (max-width: 576px) {
   .device-img{
     bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .image-wrapper{
+    display: block;
+    width: 100%;
   }
 }

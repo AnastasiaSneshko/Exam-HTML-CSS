@@ -64,3 +64,18 @@
     width: 500px;
   }
 }
+
+@media screen and (max-width: 376px) {
+  .create-heading-title{
+    font-size: 30px;
+  }
+
+  .create-flex{
+    flex-direction: column-reverse;
+  }
+
+  .create-text-container{
+    margin-top: 0;
+    width: 350px;
+  }
+}

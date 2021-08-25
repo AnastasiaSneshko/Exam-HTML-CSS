@@ -58,3 +58,25 @@
     line-height: 30px;
   }
 }
+
+@media screen and (max-width: 376px) {
+  .greeting{
+    background: #fafafa;
+    color: var(--text-color);
+  }
+
+  .greeting-heading {
+
+    width: 340px;
+    line-height: 50px;
+  }
+
+  .greeting-btn-flex {
+    flex-direction: column;
+  }
+
+  .sm-d{
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+  }
+}
