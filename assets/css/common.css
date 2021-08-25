@@ -18,6 +18,11 @@ a{
   text-decoration: none;
 }
 
+.img{
+  width: 100%;
+  display: block;
+}
+
 .btn{
   padding: 15px 60px;
   border-radius: 30px;

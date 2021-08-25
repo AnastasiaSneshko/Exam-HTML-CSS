@@ -1,5 +1,5 @@
 .create-an-account{
-  margin-top: -50px;
+  margin-top: -120px;
 }
 
 .create-heading-title{
@@ -38,6 +38,10 @@
 }
 
 @media screen and (max-width: 992px) {
+  .create-an-account{
+    margin-top: -150px;
+  }
+  
   .create-text-container{
     margin-left: 50px;
   }
@@ -47,7 +51,7 @@
   .create-an-account{
     margin-top: -100px;
   }
-
+  
   .create-flex{
     flex-direction: column;
   }
@@ -60,6 +64,9 @@
 }
 
 @media screen and (max-width: 576px) {
+  .create-an-account{
+    margin-top: -50px;
+  }
   .create-text-container{
     width: 500px;
   }
@@ -69,13 +76,11 @@
   .create-heading-title{
     font-size: 30px;
   }
-
   .create-flex{
     flex-direction: column-reverse;
   }
-
   .create-text-container{
-    margin-top: 0;
+    margin-top: 0px;
     width: 350px;
   }
 }

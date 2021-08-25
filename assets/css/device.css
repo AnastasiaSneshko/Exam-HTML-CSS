@@ -1,23 +1,25 @@
-.device-flex{
-  display: flex;
-  justify-content: center;
-}
-
-.device-img{
+.device{
   position: relative;
   bottom: 150px;
   width: inherit;
 }
 
+.device-flex{
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 576px) {
-  .device-img{
-    bottom: 100px;
+  .device{
+    bottom: 60px;
+  }
+  .device-wrapper{
+    width: 80%;
   }
 }
 
 @media screen and (max-width: 376px) {
-  .image-wrapper{
-    display: block;
-    width: 100%;
+  .device{
+    bottom: 55px;
   }
 }

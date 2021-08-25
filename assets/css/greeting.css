@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 576px) {
   .greeting {
-    padding: 50px 0 150px;
+    padding: 50px 0;
   }
   
   .greeting-heading {
@@ -75,7 +75,7 @@
     flex-direction: column;
   }
 
-  .sm-d{
+  .small-deviced-color{
     color: var(--accent-color);
     border: 1px solid var(--accent-color);
   }
