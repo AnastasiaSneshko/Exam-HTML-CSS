@@ -11,14 +11,11 @@
 
 .burger-wrapper {
   --burger-size: 50px;
-
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
   width: var(--burger-size);
   height: var(--burger-size);
-
   padding: 10px;
   background: transparent;
   border: none;
@@ -36,7 +33,6 @@
   .header{
     padding: 20px;
   }
-
   .logo-wrapper{
     width: 140px;
   }

@@ -37,12 +37,6 @@
   }
 }
 
-@media screen and (max-width: 576px) {
-  /* .explore-text-container{
-    width: 500px;
-  } */
-}
-
 @media screen and (max-width: 376px) {
   .explore-flex{
     flex-direction: column-reverse;
@@ -50,6 +44,5 @@
 
   .explore-text-container{
     margin-top: 0;
-    /* width: 350px; */
   }
 }

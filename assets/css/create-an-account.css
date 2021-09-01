@@ -1,6 +1,5 @@
 .create-an-account{
   padding: 0 20px;
-  /* margin-top: -120px; */
 }
 
 .app-work-title{
@@ -22,12 +21,6 @@
   margin: 60px auto;
   background-color: #e4e4e4;
 }
-/* 
-.create-flex{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .create-text-container{
   max-width: 600px;
@@ -42,10 +35,6 @@
 }
 
 @media screen and (max-width: 992px) {
-  /* .create-an-account{
-    margin-top: -150px;
-  } */
-  
   .create-text-container{
     margin-left: 50px;
   }
@@ -64,13 +53,6 @@
 }
 
 @media screen and (max-width: 576px) {
-  /* .create-an-account{
-    margin-top: -50px;
-  } */
-  /* .create-text-container{
-    width: 500px;
-  } */
-
   .app-work-title{
     font-size: 36px;
     margin-top: -50px;
@@ -86,6 +68,5 @@
   }
   .create-text-container{
     margin-top: 0px;
-    /* width: 350px; */
   }
 }

@@ -30,21 +30,11 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 992px) {
-  /* .greeting-heading {
-    width: 700px;
-  } */
-}
-
 @media screen and (max-width: 768px) {
   .greeting{
     background: #fafafa;
     color: var(--text-color);
   }
-
-  /* .greeting-heading {
-    width: 650px;
-  } */
 
   .small-deviced-color{
     color: var(--accent-color);
@@ -62,7 +52,7 @@
   }
 
   .btn{
-    margin: 25px auto;
+    margin: 25px auto ;
   }
 
   .greeting-heading {
@@ -84,10 +74,6 @@
     /* width: 340px; */
     line-height: 50px;
   }
-
-  /* .greeting-btn-flex {
-    flex-direction: column;
-  } */
 
   .small-deviced-color{
     color: var(--accent-color);
