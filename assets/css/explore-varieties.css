@@ -1,17 +1,16 @@
 .explore-varieties {
   margin: 70px 0;
+  padding: 0 20px;
 }
 
 .explore-flex{
-  display: flex;
   flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
 }
 
 .explore-text-container{
-  width: 600px;
+  max-width: 600px;
   margin-right: 170px;
+  padding: 0 20px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -27,10 +26,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .create-an-account{
-    margin-top: -100px;
-  }
-
   .explore-flex{
     flex-direction: column;
   }
@@ -43,9 +38,9 @@
 }
 
 @media screen and (max-width: 576px) {
-  .explore-text-container{
+  /* .explore-text-container{
     width: 500px;
-  }
+  } */
 }
 
 @media screen and (max-width: 376px) {
@@ -55,6 +50,6 @@
 
   .explore-text-container{
     margin-top: 0;
-    width: 350px;
+    /* width: 350px; */
   }
 }

@@ -1,5 +1,5 @@
 .download {
-  padding: 70px 0 100px;
+  padding: 70px 30px 100px;
   background: url(/assets/images/download-background.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -20,7 +20,7 @@
 
 .download-heading{
   font-size: 40px;
-  margin: 60px auto;
+  margin: 60px 0;
 }
 
 .radius {
@@ -28,30 +28,34 @@
 }
 
 @media screen and (max-width: 768px) {
+  .download {
+    background: #252B42;
+    padding: 50px 20px 100px;
+  }
+  
   .download-title{
     font-size: 25px;
     line-height: 30px;
   }
 }
 
-@media screen and (max-width: 376px) {
-  .download {
-    background: #252B42;
-    padding: 50px 0 100px;
-  }
+@media screen and (max-width: 620px) {
+ .download-btn-flex{
+   flex-direction: column;
+   margin-top: 30px;
+ }
 
+ .btn{
+  margin: 25px auto;
+ }
+}
+
+@media screen and (max-width: 376px) {
   .download-heading{
     margin: 50px auto;
   }
-
   .download-title{
     font-size: 24px;
     line-height: 40px;
-  }
-
-  .media{
-    font-size: 16px;
-    padding: 20px 30px;
-    margin-top: 50px;
   }
 }

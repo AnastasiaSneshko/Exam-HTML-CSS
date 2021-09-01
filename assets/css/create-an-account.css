@@ -1,17 +1,20 @@
 .create-an-account{
-  margin-top: -120px;
+  padding: 0 20px;
+  /* margin-top: -120px; */
 }
 
-.create-heading-title{
+.app-work-title{
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 44px;
   color: var(--text-color);
   text-align: center;
   margin-bottom: 60px;
+  margin-top: -120px;
+  padding: 0 15px;
 }
 
-.create-heading-title::before{
+.app-work-title::before{
   content: "";
   display: block;
   width: 70%;
@@ -19,15 +22,16 @@
   margin: 60px auto;
   background-color: #e4e4e4;
 }
-
+/* 
 .create-flex{
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .create-text-container{
-  width: 600px;
+  max-width: 600px;
+  padding: 0 20px;
   margin-left: 170px;
 }
 
@@ -38,9 +42,9 @@
 }
 
 @media screen and (max-width: 992px) {
-  .create-an-account{
+  /* .create-an-account{
     margin-top: -150px;
-  }
+  } */
   
   .create-text-container{
     margin-left: 50px;
@@ -48,10 +52,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .create-an-account{
-    margin-top: -100px;
-  }
-  
   .create-flex{
     flex-direction: column;
   }
@@ -64,23 +64,28 @@
 }
 
 @media screen and (max-width: 576px) {
-  .create-an-account{
+  /* .create-an-account{
     margin-top: -50px;
-  }
-  .create-text-container{
+  } */
+  /* .create-text-container{
     width: 500px;
+  } */
+
+  .app-work-title{
+    font-size: 36px;
+    margin-top: -50px;
   }
 }
 
 @media screen and (max-width: 376px) {
-  .create-heading-title{
-    font-size: 30px;
+  .app-work-title{
+    font-size: 26px;
   }
   .create-flex{
     flex-direction: column-reverse;
   }
   .create-text-container{
     margin-top: 0px;
-    width: 350px;
+    /* width: 350px; */
   }
 }

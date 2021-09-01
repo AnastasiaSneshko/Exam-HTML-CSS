@@ -1,9 +1,12 @@
+.footer{
+  padding: 30px;
+}
+
 .footer-flex{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
 }
 
 .social-icon{
@@ -11,20 +14,18 @@
 }
 
 .download-icon{
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 .info{
   font-size: 12px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .footer-logo{
     display: none;
   }
-}
 
-@media screen and (max-width: 376px) {
   .footer-flex{
     flex-direction: column;
   }

@@ -1,5 +1,5 @@
 .greeting {
-  padding: 70px 0 170px;
+  padding: 70px 30px 170px;
   background: url(/assets/images/greeting-background.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -12,15 +12,17 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  max-width: 939px;
+  margin: 0 auto;
 }
 
 .greeting-heading {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 58px;
-  width: 939px;
+  width: 100%;
   line-height: 80px;
-  margin: 50px auto;
+  margin: 50px 0;
 }
 
 .greeting-btn-flex {
@@ -29,51 +31,63 @@
 }
 
 @media screen and (max-width: 992px) {
-  .greeting-heading {
+  /* .greeting-heading {
     width: 700px;
-  }
+  } */
 }
 
 @media screen and (max-width: 768px) {
-  .greeting-heading {
+  .greeting{
+    background: #fafafa;
+    color: var(--text-color);
+  }
+
+  /* .greeting-heading {
     width: 650px;
+  } */
+
+  .small-deviced-color{
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
   }
 }
 
 @media screen and (max-width: 576px) {
   .greeting {
-    padding: 50px 0;
+    padding: 50px 20px;
   }
   
+  .greeting-btn-flex {
+    flex-direction: column;
+  }
+
+  .btn{
+    margin: 25px auto;
+  }
+
   .greeting-heading {
-    width: 500px;
+    /* width: 500px; */
     font-size: 36px;
     line-height: 60px;
     margin: 30px auto;
   }
 
   .greeting-title{
-    width: 350px;
+    /* width: 350px; */
     font-size: 20px;
     line-height: 30px;
   }
 }
 
 @media screen and (max-width: 376px) {
-  .greeting{
-    background: #fafafa;
-    color: var(--text-color);
-  }
-
   .greeting-heading {
-
-    width: 340px;
+    /* width: 340px; */
     line-height: 50px;
   }
 
-  .greeting-btn-flex {
+  /* .greeting-btn-flex {
     flex-direction: column;
-  }
+  } */
 
   .small-deviced-color{
     color: var(--accent-color);
