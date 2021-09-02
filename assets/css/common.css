@@ -20,6 +20,14 @@
   justify-content: center;
 }
 
+.info-image-wrapper{
+  min-width: 290px;
+}
+
+.info-section{
+  padding: 0 20px;
+}
+
 a{
   text-decoration: none;
 }

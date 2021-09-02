@@ -1,7 +1,3 @@
-.create-an-account{
-  padding: 0 20px;
-}
-
 .app-work-title{
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
@@ -41,7 +37,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .create-flex{
+  .info-column-reverse{
     flex-direction: column;
   }
 
@@ -63,7 +59,7 @@
   .app-work-title{
     font-size: 26px;
   }
-  .create-flex{
+  .info-column-reverse{
     flex-direction: column-reverse;
   }
   .create-text-container{
